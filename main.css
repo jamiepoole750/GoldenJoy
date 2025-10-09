@@ -1,32 +1,4 @@
 /* typography */
-/* body copy */
-.poppins-regular { 
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* links/buttons */
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-/* H3 */
-.poppins-semibold {
-font-family: "Poppins", sans-serif;
-font-weight: 600;
-font-style: normal;
-}
-
-/* H2 */
-.poppins-bold {
-font-family: "Poppins", sans-serif;
-font-weight: 700;
-font-style: normal;
-}
-
 /* H1 */
 .poppins-extrabold {
 font-family: "Poppins", sans-serif;
@@ -38,11 +10,63 @@ h1 {
     font-size: 46pt;
 }
 
-/* Subheadings */
-.poppins-thin-italic {
+/* H2 */
+.poppins-bold {
 font-family: "Poppins", sans-serif;
-font-weight: 100;
-font-style: italic;
+font-weight: 700;
+font-style: normal;
+}
+h2 {
+    font-family: 'poppins-bold', sans-serif;
+    font-size: 40pt;
 }
 
+/* H3 */
+.poppins-semibold {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+h3 {
+    font-family: 'poppins-semibold', sans-serif;
+    font-size: 34pt;
+}
+
+/* Subheadings */
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+h4 {
+    font-family: 'poppins-extrabold', sans-serif;
+    font-size: 28pt;
+}
+
+/* links/buttons */
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h5 {
+    font-family: 'poppins-medium', sans-serif;
+    font-size: 22pt;
+}
+
+/* body copy */
+.poppins-regular { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'poppins-extrabold', sans-serif;
+    font-size: 22pt;
+}
+
+/* page setup */
+canvas {
+    margin: auto;
+}
 
