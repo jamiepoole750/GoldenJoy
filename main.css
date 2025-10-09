@@ -63,10 +63,9 @@ h5 {
 body {
     font-family: 'poppins-extrabold', sans-serif;
     font-size: 22pt;
+    text-align: center;
 }
 
 /* page setup */
-canvas {
-    margin: auto;
-}
+
 
