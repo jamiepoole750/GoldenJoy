@@ -7,7 +7,7 @@ font-style: normal;
 }
 h1 {
     font-family: 'poppins-extrabold', sans-serif;
-    font-size: 46pt;
+    font-size: 34px
 }
 
 /* H2 */
@@ -18,7 +18,7 @@ font-style: normal;
 }
 h2 {
     font-family: 'poppins-bold', sans-serif;
-    font-size: 40pt;
+    font-size: 28px;
 }
 
 /* H3 */
@@ -29,7 +29,7 @@ font-style: normal;
 }
 h3 {
     font-family: 'poppins-semibold', sans-serif;
-    font-size: 34pt;
+    font-size: 22px;
 }
 
 /* Subheadings */
@@ -39,8 +39,8 @@ h3 {
     font-style: italic;
 }
 h4 {
-    font-family: 'poppins-extrabold', sans-serif;
-    font-size: 28pt;
+    font-family: 'poppins-regular-italic', sans-serif;
+    font-size: 20px;
 }
 
 /* links/buttons */
@@ -51,7 +51,7 @@ h4 {
 }
 h5 {
     font-family: 'poppins-medium', sans-serif;
-    font-size: 22pt;
+    font-size: 18px;
 }
 
 /* body copy */
@@ -60,12 +60,34 @@ h5 {
     font-weight: 400;
     font-style: normal;
 }
-body {
+p {
     font-family: 'poppins-extrabold', sans-serif;
-    font-size: 22pt;
-    text-align: center;
+    font-size: 18px;
 }
 
 /* page setup */
+html {
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px
+}
 
+/* intro */
+.intro {
+    text-align: center;
+    padding-top: 200px;
+    background-color: gray;
+}
+
+.intro h2{
+    margin-bottom: 50px;
+}
+
+
+.intro h4{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: white;
+}
 
