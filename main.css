@@ -227,6 +227,66 @@ ul li a:hover {
     padding: 100px;
 }
 
+/* branding & process */
+.brand {
+   margin-bottom: 100px;
+}
+
+.brand-intro {
+    padding: 100px;
+    background-color: #340132;
+}
+
+.brand-intro h1 {
+    color: #FFFDFA;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #660463;
+}
+
+.brand-intro h4 {
+    color: #FFFDFA;
+
+}
+
+/* brand name */
+.brand-name {
+    display: flex;
+}
+
+.brand-name-info {
+    margin: 50px 0px 50px 50px;
+}
+
+.brand-name img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+/* brand logo */
+.brand-logo {
+    margin-top: 50px;
+}
+
+.brand-logo-sketches img{
+    display: inline-flex;
+    max-width: 100%;
+    max-height: 300px;
+    justify-content: center;
+}
+
+
+/* brand patterns */
+.brand-patterns {
+    margin-top: 50px;
+}
+
+.brand-patterns-sketches img{
+    display: inline-flex;
+    max-width: 100%;
+    max-height: 300px;
+    justify-content: center;
+}
+
 
 /*external connections */
 .external-connections {
