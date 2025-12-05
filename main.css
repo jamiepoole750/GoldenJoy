@@ -315,4 +315,132 @@ ul li a:hover {
 }
 
 .comm-event-meet-img img {
- 
+    margin-top: 8px;
+    width: 500px;
+}
+
+/* activity fair */
+.comm-event-fair {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.comm-event-fair-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.comm-event-fair-img img {
+    margin-top: 8px;
+    width: 500px;
+}
+
+/* web design */
+.web-design-intro {
+    background-color: #340132;
+    padding: 100px;
+    color: #FFFDFA;
+}
+
+.web-design-intro h1 {
+    color: #FFFDFA;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #660463;
+}
+
+/*outreach connections */
+.outreach {
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.outreach img {
+    max-width: 100%;
+    height: 200px;
+    margin-right: 50px;
+}
+
+
+
+/* user journey */
+.web-design-users {
+    margin-top: 50px;
+    display: flex;
+}
+
+.web-design-users-info {
+    margin-right: 50px;
+}
+
+.iframe-user-journey iframe{
+    width: 600px;
+    height: 400px;
+}
+
+/* wireframes */
+.wireframes {
+    margin-top: 50px;
+}
+
+.wireframes img{
+    max-width: 100%;
+}
+
+/* website prototype */
+.website-prototype {
+    margin-top: 50px;
+}
+
+.website-prototype iframe {
+   width: 100%;
+   height: 700px;
+
+}
+
+.website-prototype h1{
+    color: #660463;
+    text-align: center;
+}
+
+
+/* golden joy website */
+.gj-website-title {
+    background-color: #340132;
+    padding: 100px;
+}
+
+.gj-website-title h1{
+    color: #FFFDFA;
+    text-align: center;
+}
+
+.gj-website iframe {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 800px;
+}
+
+/* bibliography */
+.bibliography-title {
+    background-color: #340132;
+    padding: 100px;
+    color: #FFFDFA;
+}
+
+.bibliography-title h1 {
+    color: #FFFDFA;
+    text-align: center;
+}
+
+.bibliography-list {
+    margin: 100px;
+}
+
+.bibliography-list p {
+    padding-bottom: 30px;
+}
