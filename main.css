@@ -11,9 +11,9 @@ h1 {
 
 /* H2 Le Monde Courrier*/
 .poppins-bold {
-font-family: "Poppins", sans-serif;
-font-weight: 700;
-font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 h2 {
     font-family: "lemonde-courrier", serif;
@@ -89,7 +89,8 @@ html {
 
 nav {
     position: relative;
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     vertical-align: bottom;
     display: inline-block;
     float: right;
@@ -154,7 +155,7 @@ ul li a:hover {
 }
 .inspiration-para {
     max-width: 600px;
-    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -207,13 +208,11 @@ ul li a:hover {
 .research-data {
     margin-right: 50px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .research-questions {
-    position: relative;
-    background-color: #FDECD8;
-    padding: 100px;
+  margin-bottom: 100px;
 }
 
 /* branding & process */
@@ -238,12 +237,15 @@ ul li a:hover {
 }
 
 /* brand name */
+
+
 .brand-name {
     display: flex;
+    margin-top: 50px;
 }
 
 .brand-name-info {
-    margin: 50px 0px 50px 50px;
+    margin: 50px 50px 50px 0px;
 }
 
 .brand-name img {
@@ -286,6 +288,11 @@ ul li a:hover {
 .brand-pattern-sketches-img img {
     margin-top: 8px;
     width: 500px;
+} 
+
+/* brand guidelines */
+.brand-guidelines {
+    margin-top: 50px;
 }
 
 /* comm event */
@@ -353,15 +360,18 @@ ul li a:hover {
 
 /*outreach connections */
 .outreach {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
 }
 
+.outreach-connections {
+    margin-right: 50px;
+}
 
 .outreach img {
     max-width: 100%;
-    height: 200px;
-    margin-right: 50px;
+    height: 300px;
+    margin: 100px 100px 50px 100px;
 }
 
 
@@ -406,15 +416,41 @@ ul li a:hover {
     text-align: center;
 }
 
+/* conclusion */
+.conclusion {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.conclusion h1 {
+    color: #660463;
+    text-align: center;
+}
+
+.conclusion h4 {
+    color: #340132;
+}
+
+.conclusion-summary {
+    border-bottom: 3px solid #660463;
+    padding-bottom: 50px;
+}
 
 /* golden joy website */
 .gj-website-title {
     background-color: #340132;
+    margin-top: 10px;
     padding: 100px;
 }
 
 .gj-website-title h1{
     color: #FFFDFA;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #660463;
+}
+
+.gj-website h4 {
     text-align: center;
 }
 
@@ -428,6 +464,7 @@ ul li a:hover {
 /* bibliography */
 .bibliography-title {
     background-color: #340132;
+    margin-top: 10px;
     padding: 100px;
     color: #FFFDFA;
 }
@@ -444,3 +481,4 @@ ul li a:hover {
 .bibliography-list p {
     padding-bottom: 30px;
 }
+
